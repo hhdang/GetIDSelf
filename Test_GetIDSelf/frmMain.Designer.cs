@@ -1,6 +1,18 @@
-﻿namespace Test_GetIDSelf
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using BackgroundManager.Func;
+
+
+namespace BackgroundManager
 {
-    partial class Form1
+    public partial class frmMain : Form
     {
         /// <summary>
         /// 必需的设计器变量。
