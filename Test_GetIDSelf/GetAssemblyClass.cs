@@ -33,7 +33,7 @@ namespace BackgroundManager.Func
             });
         }
 
-        public Type[] GetUserCtrlAssembly() { 
+        public Type[] GetUserCtlAssembly() { 
             Type[] assemblyArray = GetAssembly();
             string allType = typeof(UserControl).FullName;
             string mainType = typeof(frmMain).FullName;
